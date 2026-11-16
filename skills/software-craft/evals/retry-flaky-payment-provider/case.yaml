@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: retry-flaky-payment-provider
+expected_outcome: |
+  charge() gets bounded retries with backoff for transient failures only, every request has an explicit timeout, and retries cannot create duplicate charges (a stable idempotency key or request id is reused across attempts, or ambiguous failures are not blindly retried). Tests cover the retry and failure paths.
+context:
+  scaffold_script: place-files.sh

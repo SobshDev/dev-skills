@@ -1,0 +1,10 @@
+{
+  "name": "software-craft",
+  "version": "1.0.0",
+  "description": "Engineering judgment from 14 classic software books, as an agent skill: core rules, workflows, decision rules where the books disagree, and 17 topic guides.",
+  "author": { "name": "SobshDev", "url": "https://github.com/SobshDev" },
+  "homepage": "https://github.com/SobshDev/dev-skills",
+  "repository": "https://github.com/SobshDev/dev-skills",
+  "license": "MIT",
+  "keywords": ["software-design", "refactoring", "testing", "code-review", "architecture", "reliability", "skill"]
+}

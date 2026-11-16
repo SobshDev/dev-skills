@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: legacy-pricing-tier-change
+expected_outcome: |
+  Before or alongside the behavior change, tests pin the existing behavior of calc() (silver discount, sale items, VAT by country, the threshold). The gold rate changes to 15% and a platinum tier at 20% is added, with tests. All other results stay identical, and any restructuring is kept separate from the behavior change.
+context:
+  scaffold_script: place-files.sh

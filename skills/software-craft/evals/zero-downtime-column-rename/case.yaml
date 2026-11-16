@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: zero-downtime-column-rename
+expected_outcome: |
+  The rename is done as an expand/contract sequence rather than one RENAME: add the new column, write both and backfill, switch reads, and only drop the old column (and add constraints such as NOT NULL/UNIQUE on the new one) in a later migration after every instance runs the new code. Old and new app versions both work during the rollout.
+context:
+  scaffold_script: place-files.sh

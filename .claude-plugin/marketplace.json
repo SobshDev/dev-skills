@@ -1,0 +1,16 @@
+{
+  "name": "dev-skills",
+  "owner": { "name": "SobshDev", "url": "https://github.com/SobshDev" },
+  "metadata": {
+    "description": "Agent skills for software engineering."
+  },
+  "plugins": [
+    {
+      "name": "software-craft",
+      "source": "./",
+      "description": "Engineering judgment from 14 classic software books, as an agent skill: core rules, workflows, decision rules where the books disagree, and 17 topic guides.",
+      "version": "1.0.0",
+      "category": "development"
+    }
+  ]
+}

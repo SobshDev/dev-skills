@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: review-orders-pr
+expected_outcome: |
+  The review flags the SQL injection in find_by_customer_name, the HTTP call without a timeout, the unbounded module-level rates cache, the refactor mixed with a shipping-fee behavior change, the duplicated 20% VAT rule, tests that assert mock calls instead of outcomes with no test for the new shipping rules, and the commented-out code.
+context:
+  scaffold_script: place-files.sh
